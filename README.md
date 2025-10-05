@@ -340,7 +340,7 @@ Register the main/root form.
 
 ---
 
-#### `registerFormElement(path, controlName, control, options?): FormEvent | null`
+#### `registerFormElement(path, controlName, control, options?): FormEventInterface | null`
 Register a nested form element.
 
 **Parameters:**
@@ -351,7 +351,7 @@ Register a nested form element.
   - `overwrite`: boolean - Replace existing control (default: false)
   - `insertAtIndex`: number - Insert at specific position
 
-**Returns:** FormEvent object or null if parent not found
+**Returns:** FormEventInterface object or null if parent not found
 
 ---
 
@@ -375,12 +375,12 @@ Get the main FormGroup with all nested forms.
 
 ---
 
-#### `getFormEventObservable(): Observable<FormEvent>`
+#### `getFormEventObservable(): Observable<FormEventInterface>`
 Get observable that emits when forms/controls are registered.
 
 ---
 
-#### `getFormEventHistory(): FormEvent[]`
+#### `getFormEventHistory(): FormEventInterface[]`
 Get array of all registration events (useful for optimization).
 
 ---

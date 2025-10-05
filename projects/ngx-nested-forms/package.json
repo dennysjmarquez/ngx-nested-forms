@@ -1,11 +1,45 @@
 {
-  "name": "ngx-nested-forms",
-  "version": "0.0.1",
-  "peerDependencies": {
-    "@angular/common": "^13.1.0",
-    "@angular/core": "^13.1.0"
+  "name": "@dennysjmarquez/ngx-nested-forms",
+  "version": "1.0.0",
+  "description": "A powerful Angular service for managing nested forms across multiple components with centralized state management",
+  "keywords": [
+    "angular",
+    "forms",
+    "nested-forms",
+    "reactive-forms",
+    "template-driven-forms",
+    "form-management",
+    "angular-forms",
+    "ngx",
+    "centralized-forms",
+    "multi-step-forms",
+    "wizard-forms"
+  ],
+  "author": {
+    "name": "Dennys Jose Marquez Reyes",
+    "email": "dennysjmarquez@gmail.com",
+    "url": "https://dennysjmarquez.dev"
   },
-  "dependencies": {
-    "tslib": "^2.3.0"
-  }
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dennysjmarquez/ngx-nested-forms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dennysjmarquez/ngx-nested-forms/issues"
+  },
+  "homepage": "https://github.com/dennysjmarquez/ngx-nested-forms#readme",
+  "peerDependencies": {
+    "@angular/common": "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "@angular/core": "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "@angular/forms": "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "rxjs": "^6.5.0 || ^7.0.0"
+  },
+  "main": "bundles/dennysjmarquez-ngx-nested-forms.umd.js",
+  "module": "fesm2015/dennysjmarquez-ngx-nested-forms.js",
+  "es2015": "fesm2015/dennysjmarquez-ngx-nested-forms.js",
+  "esm2015": "esm2015/dennysjmarquez-ngx-nested-forms.js",
+  "fesm2015": "fesm2015/dennysjmarquez-ngx-nested-forms.js",
+  "typings": "dennysjmarquez-ngx-nested-forms.d.ts",
+  "sideEffects": false
 }

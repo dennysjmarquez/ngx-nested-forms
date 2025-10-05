@@ -1,26 +1,6 @@
 {
-  "name": "@dennysjmarquez/ngx-nested-forms",
-  "version": "1.0.0",
-  "description": "A powerful Angular service for managing nested forms across multiple components with centralized state management",
-  "keywords": [
-    "angular",
-    "forms",
-    "nested-forms",
-    "reactive-forms",
-    "template-driven-forms",
-    "form-management",
-    "angular-forms",
-    "ngx",
-    "centralized-forms",
-    "multi-step-forms",
-    "wizard-forms"
-  ],
-  "author": {
-    "name": "Dennys Jose Marquez Reyes",
-    "email": "dennysjmarquez@gmail.com",
-    "url": "https://dennysjmarquez.dev"
-  },
-  "license": "MIT",
+  "name": "angular-nested-forms-service",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
