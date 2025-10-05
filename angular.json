@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "ngx-nested-forms": {
+      "projectType": "library",
+      "root": "projects/ngx-nested-forms",
+      "sourceRoot": "projects/ngx-nested-forms/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-nested-forms/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-nested-forms/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-nested-forms/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-nested-forms/src/test.ts",
+            "tsConfig": "projects/ngx-nested-forms/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-nested-forms/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ngx-nested-forms"
+}
