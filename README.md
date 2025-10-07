@@ -1,6 +1,7 @@
 # @dennysjmarquez/ngx-nested-forms
 
 [![npm version](https://badge.fury.io/js/%40dennysjmarquez%2Fngx-nested-forms.svg)](https://www.npmjs.com/package/@dennysjmarquez/ngx-nested-forms)
+[![npm downloads](https://img.shields.io/npm/dm/@dennysjmarquez/ngx-nested-forms.svg)](https://www.npmjs.com/package/@dennysjmarquez/ngx-nested-forms)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > A powerful Angular service for managing nested forms across multiple components with centralized state management.
